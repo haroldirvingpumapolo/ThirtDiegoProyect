@@ -1,0 +1,61 @@
+.firstBlock{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* aqui estoy editando adentro del firstBlock */
+.main-header-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.header-container-mid{
+  display: flex;
+  flex-direction: row;
+}
+
+.header-text{
+  padding-left: 10px;
+  padding-right: 16px;
+}
+.header-container-rigth{
+  display: flex;
+  flex-direction: row;
+}
+.main-section1-flex{
+  display: flex;
+}
+.main-section1-image-conteiner{
+  width: 20rem;
+  margin-left:35px ;
+}
+
+button{
+  background-color: black;
+  width: 100px;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+}
+ul{
+  list-style-image: url(/SpenseStarterFiles/Assets/Checkmark.svg);
+}
+.header-container-mid{
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+.header-container-left{
+ padding-right: 100px;
+}
+
+.main-section1-tittle{
+  font-size: 1.75em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: rgb(55, 55, 55)
+}
+
